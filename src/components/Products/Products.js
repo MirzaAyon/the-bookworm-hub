@@ -28,7 +28,7 @@ const Products = () => {
         Swal.fire({
           icon: "error",
           title: "Sorry...",
-          text: "You can not add more than four products",
+          text: "You can not add more than four books",
         });
       }
     } else {
@@ -36,7 +36,7 @@ const Products = () => {
       Swal.fire({
         icon: "warning",
         title: "Oops...",
-        text: "Already added!",
+        text: "Already added in the cart",
       });
     }
   };
@@ -76,7 +76,7 @@ const Products = () => {
             onClick={handleChoseOne}
             className="my-2 btn w-100 rounded-pill btn-outline-primary text-dark fw-bolder"
           >
-            CHOOSE one FOR ME
+            CHOOSE ONE FOR ME
           </button>
           <br />
           <button

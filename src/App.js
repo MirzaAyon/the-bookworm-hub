@@ -15,3 +15,13 @@ function App() {
 }
 
 export default App;
+
+
+//All the components life cycle
+
+
+
+//here App is grandfather, he has 3 child's named Header,Footer and Products
+//He also have 2 grand childs named Product and item
+//Product and item are siblings 
+//and their parent in Products

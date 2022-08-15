@@ -9,7 +9,7 @@ const Item = ({ item, handleDelete }) => {
     <div className="single-item p-2 mb-3">
       <img className="rounded-circle" src={img} alt="" />
       <h6>{name}</h6>
-      <button onClick={() => handleDelete(item)}>
+      <button className="rounded-3" onClick={() => handleDelete(item)}>
         <FontAwesomeIcon className="" icon={faTrashCan} />
       </button>
     </div>
