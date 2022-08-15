@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import logo from "../../images/logo.png";
 
+import './Header.css'
+
 const Header = () => {
   return (
     <div>
@@ -18,7 +20,7 @@ const Header = () => {
             The Bookworm Hut
           </Navbar.Brand>
           <Nav className="ms-auto fw-bold">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#home" >Home</Nav.Link>
             <Nav.Link href="#features">Shop</Nav.Link>
             <Nav.Link href="#pricing">About</Nav.Link>
             <Nav.Link href="#review" >Review</Nav.Link>
