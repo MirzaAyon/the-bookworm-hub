@@ -1,62 +1,62 @@
 [
   {
     "id": "1",
-    "price": "$720.00",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-6-pro-1.jpg",
-    "name": "Google Pixel 6 Pro"
+    "price": "$8.99",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41CUMp6BtiL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "name": "The Time Traveler's Wife"
   },
   {
     "id": "2",
-    "price": "$529.99",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-6-1.jpg",
-    "name": "Google Pixel 6"
+    "price": "$14.99",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41wWaTc7MjL._SX329_BO1,204,203,200_.jpg",
+    "name": "A Redemption Story"
   },
   {
     "id": "3",
-    "price": "$429.99",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5a-5g-00.jpg",
-    "name": "Google Pixel 5a 5G"
+    "price": "$13.99",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/417BPLjB4zL._SX322_BO1,204,203,200_.jpg",
+    "name": "Munich"
   },
   {
     "id": "4",
-    "price": "$399.99",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5-5g-1.jpg",
-    "name": "Google Pixel 5"
+    "price": "$11.99",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41d1gVUK1yL._SX331_BO1,204,203,200_.jpg",
+    "name": "Verity"
   },
   {
     "id": "5",
-    "price": "$493.99",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-4a-5g-1.jpg",
-    "name": "Google Pixel 4a 5G"
+    "price": "$5.99",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41c35qRC0pL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "name": "Never Ever Give Up"
   },
   {
     "id": "6",
-    "price": "$343.00",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-4-xl-1.jpg",
-    "name": "Google Pixel 4 XL"
+    "price": "$16.19",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51Qqntd93WL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "name": "The Sandman Book One"
   },
   {
     "id": "7",
-    "price": "$240.00",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-4-1.jpg",
-    "name": "Google Pixel 4"
+    "price": "$17.99",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/412patBDghL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "name": "A Self-Made Man"
   },
   {
     "id": "8",
-    "price": "$135.00",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-3a-xl-1.jpg",
-    "name": "Google Pixel 3a XL"
+    "price": "$9.99",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51ED6WxFy8L._SX335_BO1,204,203,200_.jpg",
+    "name": "The Fault in Our Stars"
   },
   {
     "id": "9",
-    "price": "$135.00",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-3a-1.jpg",
-    "name": "Google Pixel 3a"
+    "price": "$9.99",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41ugkFN8EdL._SX384_BO1,204,203,200_.jpg",
+    "name": "Howies Broken HeeHaw"
   },
   {
     "id": "10",
-    "price": "$150.00",
-    "img": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-04.jpg",
-    "name": "Google Pixel"
+    "price": "$8.57",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/417L6bzzqeL._SX322_BO1,204,203,200_.jpg",
+    "name": "Planet Evaders"
   }
 ]
