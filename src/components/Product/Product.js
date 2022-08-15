@@ -16,7 +16,7 @@ const Product = ({ product, handleAddToCart }) => {
             <Card.Text>Price: {price}</Card.Text>
             <Button
               onClick={() => handleAddToCart(product)}
-              className="w-100 btn-add-to-cart fw-bold btn-outline-dark border-0"
+              className="w-100 btn-add-to-cart fw-bold btn-outline-danger border-0"
               variant=""
             >
               Add to Cart
