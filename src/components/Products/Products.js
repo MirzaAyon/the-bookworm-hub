@@ -5,12 +5,12 @@ import Product from "../Product/Product";
 import "./Products.css";
 
 const Products = () => {
-  const [phones, setPhones] = useState([]);
+  const [books, setBooks] = useState([]);
   const [cart, setCart] = useState([]);
   useEffect(() => {
     fetch("books.json")
       .then((res) => res.json())
-      .then((data) => setPhones(data));
+      .then((data) => setBooks(data));
   }, []);
 
   const handleDelete = (item) => {
@@ -56,18 +56,18 @@ const Products = () => {
       <div className="row">
         <div className="col-lg-9 mb-5">
           <div className="row g-4">
-            {phones &&
-              phones.map((phone) => (
+            {books &&
+              books.map((book) => (
                 <Product
-                  product={phone}
-                  key={phone.id}
+                  product={book}
+                  key={book.id}
                   handleAddToCart={handleAddToCart}
                 />
               ))}
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-12 mx-auto sidebar">
-          <h2 className="text-center mt-2">Selected Phones</h2>
+          <h2 className="text-center mt-2">Selected books</h2>
           {cart &&
             cart.map((item) => (
               <Item handleDelete={handleDelete} item={item} key={item.id} />
