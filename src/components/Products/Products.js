@@ -67,7 +67,7 @@ const Products = () => {
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-12 mx-auto sidebar">
-          <h2 className="text-center mt-2">Selected books</h2>
+          <h2 className="text-center mt-2">Your books</h2>
           {cart &&
             cart.map((item) => (
               <Item handleDelete={handleDelete} item={item} key={item.id} />
@@ -83,7 +83,7 @@ const Products = () => {
             onClick={handleReset}
             className=" btn w-100 rounded-pill btn-outline-primary text-dark fw-bolder"
           >
-            RESET
+            REMOVE
           </button>
         </div>
       </div>
