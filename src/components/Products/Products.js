@@ -76,7 +76,7 @@ const Products = () => {
             onClick={handleChoseOne}
             className="my-2 btn w-100 rounded-pill btn-outline-primary text-dark fw-bolder"
           >
-            CHOOSE 1 FOR ME
+            CHOOSE one FOR ME
           </button>
           <br />
           <button
