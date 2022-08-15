@@ -7,9 +7,9 @@ import Products from "./components/Products/Products";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Products />
-      <Footer />
+      <Header></Header>
+      <Products></Products>
+      <Footer></Footer>
     </div>
   );
 }
