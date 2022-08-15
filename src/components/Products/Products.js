@@ -51,7 +51,8 @@ const Products = () => {
   };
   return (
     <div className="container">
-      <h1 className="text-center fw-bolder py-3">New on Pixel Store.</h1>
+      <marquee behavior="" direction="1"><h1 className="text-center fw-bolder py-3">Get your favourite books</h1></marquee>
+      <p className="text-center text-danger py-5 fw-bold">Books are the quietest and most constant of friends, they are the most accessible and wisest of counselors, and the most patient of teachers.</p>
       <div className="row">
         <div className="col-lg-9 mb-5">
           <div className="row g-4">
