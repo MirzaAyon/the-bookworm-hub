@@ -1,14 +1,16 @@
 .sidebar {
-  background-color: #efebe9 !important;
+  background-color: orange;
   position: sticky;
   top: 0;
   height: 600px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
 .btn-sidebar-one {
   background-color: #1edf6173;
 }
+
 .btn-sidebar-one:hover {
   background-color: #1db954;
 }
