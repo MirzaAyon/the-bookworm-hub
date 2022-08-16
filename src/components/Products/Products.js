@@ -58,11 +58,12 @@ const Products = () => {
           <div className="row g-4">
             {books &&
               books.map((book) => (
-                <Product
+                <Product>
                   product={book}
                   key={book.id}
                   handleAddToCart={handleAddToCart}
-                />
+                </Product>
+
               ))}
           </div>
         </div>
@@ -70,7 +71,7 @@ const Products = () => {
           <h2 className="text-center mt-2">Your books</h2>
           {cart &&
             cart.map((item) => (
-              <Item handleDelete={handleDelete} item={item} key={item.id} />
+              <Item> handleDelete={handleDelete} item={item} key={item.id} </Item>
             ))}
           <button
             onClick={handleChoseOne}
