@@ -32,7 +32,7 @@ const Header = () => {
               <NavDropdown.Item href="#action/3.3">Information</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Promo
+                Promo code
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
